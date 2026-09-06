@@ -27,7 +27,7 @@ export default function HowItWorksPage() {
             </span>
           </h1>
           <p className="text-slate-400 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto">
-            We've made cutting the cord as simple as possible. No technical skills required, no hardware to install, and absolutely zero hidden fees. Just choose a plan, connect your app, and dive into infinite entertainment.
+            We&apos;ve made cutting the cord as simple as possible. No technical skills required, no hardware to install, and absolutely zero hidden fees. Just choose a plan, connect your app, and dive into infinite entertainment.
           </p>
         </div>
       </section>
