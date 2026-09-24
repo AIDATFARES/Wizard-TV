@@ -16,10 +16,10 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
+    default: "Wizard TV | The Best IPTV Provider 2026 – Buffer-Free 4K Streaming",
     template: "%s | Wizard TV",
   },
-  description: "Stream 50,000+ live TV channels, PPV events, sports, and 120,000+ movies & series in crystal-clear 4K/FHD. Fast activation, anti-freeze tech & 24/7 support.",
+  description: "Tired of buffering? Wizard TV delivers ultra-fast 4K IPTV with 50,000+ channels, PPV events & VOD. Works on Firestick, Smart TV, Android & iOS. Instant setup!",
   metadataBase: new URL("https://www.wizardtv.site"),
   alternates: {
     canonical: "/",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
-    description: "Stream 50,000+ live TV channels, PPV events, sports, and 120,000+ movies & series in crystal-clear 4K/FHD. Fast activation, anti-freeze tech & 24/7 support.",
+    title: "Wizard TV | The Best IPTV Provider 2026 – Buffer-Free 4K Streaming",
+    description: "Tired of buffering? Wizard TV delivers ultra-fast 4K IPTV with 50,000+ channels, PPV events & VOD. Works on Firestick, Smart TV, Android & iOS. Instant setup!",
     url: "https://www.wizardtv.site",
     siteName: "Wizard TV",
     images: [
@@ -53,8 +53,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
-    description: "Stream 50,000+ live TV channels, PPV events, sports, and 120,000+ movies & series in crystal-clear 4K/FHD. Fast activation, anti-freeze tech & 24/7 support.",
+    title: "Wizard TV | The Best IPTV Provider 2026 – Buffer-Free 4K Streaming",
+    description: "Tired of buffering? Wizard TV delivers ultra-fast 4K IPTV with 50,000+ channels, PPV events & VOD. Works on Firestick, Smart TV, Android & iOS. Instant setup!",
     images: ["/og-image-wizardtv.webp"],
   },
 };

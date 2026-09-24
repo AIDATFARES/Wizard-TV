@@ -3,8 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
-  description: "Experience premium streaming with Wizard TV. Enjoy 50,000+ live TV channels, live sports, PPV events, and 120,000+ movies & series in stunning 4K & FHD. Instant setup!",
+  title: "Wizard TV | The Best IPTV Provider 2026 – Buffer-Free 4K Streaming",
+  description: "Tired of buffering? Wizard TV delivers ultra-fast 4K IPTV with 50,000+ channels, PPV events & VOD. Works on Firestick, Smart TV, Android & iOS. Instant setup!",
   alternates: {
     canonical: "/",
   },
