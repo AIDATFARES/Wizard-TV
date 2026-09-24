@@ -13,12 +13,11 @@ export default function BrandLogo({ compact = false, theme = "auto" }: BrandLogo
       {/* Wizard TV Official Glowing Emblem */}
       <div className={`relative rounded-xl overflow-hidden shadow-[0_0_20px_rgba(138,43,226,0.45)] border border-[#8A2BE2]/40 shrink-0 bg-[#070913] ${compact ? "w-10 h-10" : "w-11 h-11"}`}>
         <Image
-          src="/icon.png"
+          src="/wizard-logo.webp"
           alt="Wizard TV Logo"
-          fill
-          priority
-          sizes="48px"
-          className="object-cover"
+          width={44}
+          height={44}
+          className="object-cover w-full h-full"
         />
       </div>
 

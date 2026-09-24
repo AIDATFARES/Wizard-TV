@@ -34,6 +34,8 @@ export default function LatestArticlesSection() {
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     alt={post.title}
                     src={post.coverImage || "/blog/high-quality-iptv-service.webp"}
+                    loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute bottom-0 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
                   <span className="absolute top-4 left-4 px-3 py-1 bg-white backdrop-blur-md text-black rounded-full text-xs font-bold border border-black/10">

@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Sports Tape */}
       <div className="w-full bg-white pt-12 pb-2 relative z-20">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-4">All Major Sports & Leagues Live</h3>
+        <h2 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-4">All Major Sports & Leagues Live</h2>
       </div>
       <BrandMarquee 
         imagesFolder="channel5" 
@@ -46,8 +46,8 @@ export default function Home() {
         ]}
         cardClassName="flex-shrink-0 w-[140px] h-[200px] md:w-[200px] md:h-[280px] relative rounded-xl overflow-hidden shadow-2xl border border-black/10 bg-white hover:border-[#8A2BE2]/60 transition-all duration-300 group"
         imageClassName="object-cover rounded-xl"
-        sizes="(max-width: 640px) 280px, (max-width: 1024px) 400px, 500px"
-        quality={95}
+        sizes="(max-width: 640px) 140px, 200px"
+        quality={75}
       />
 
       {/* Channel & Installation Quick Links */}

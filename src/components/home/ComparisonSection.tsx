@@ -43,15 +43,15 @@ export default function ComparisonSection() {
 
             {/* Table Header */}
             <div className="grid grid-cols-4 gap-4 mb-6 relative z-10">
-              <div className="text-left font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end pb-4">Features</div>
+              <div className="text-left font-bold text-slate-600 uppercase tracking-widest text-sm flex items-end pb-4">Features</div>
               
               <div className="flex flex-col items-center justify-center bg-gradient-to-r from-[#8A2BE2] via-[#7C3AED] to-[#F59E0B] text-white rounded-2xl p-5 shadow-[0_10px_30px_rgba(138,43,226,0.3)] transform -translate-y-4 scale-105 border-2 border-white">
                 <span className="text-[10px] uppercase tracking-widest font-bold opacity-90 mb-1 text-amber-200">Premium Choice</span>
                 <span className="text-2xl font-black tracking-tight">Wizard TV</span>
               </div>
               
-              <div className="text-center font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Cable / Satellite</div>
-              <div className="text-center font-bold text-slate-400 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Other IPTV</div>
+              <div className="text-center font-bold text-slate-600 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Cable / Satellite</div>
+              <div className="text-center font-bold text-slate-600 uppercase tracking-widest text-sm flex items-end justify-center pb-4">Other IPTV</div>
             </div>
 
             {/* Table Rows */}
@@ -85,7 +85,7 @@ export default function ComparisonSection() {
           </div>
 
           <div className="bg-white rounded-3xl shadow-lg border border-slate-200 p-6">
-            <h3 className="text-xl font-bold mb-6 text-center text-slate-400">Cable / Satellite</h3>
+            <h3 className="text-xl font-bold mb-6 text-center text-slate-700">Cable / Satellite</h3>
             <div className="space-y-4">
               {rows.map((row, idx) => (
                 <div key={idx} className="flex justify-between items-center border-b border-slate-100 pb-3 last:border-0 last:pb-0">

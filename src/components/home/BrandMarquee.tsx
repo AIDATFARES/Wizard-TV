@@ -15,7 +15,7 @@ export default function BrandMarquee({
   cardClassName,
   imageClassName,
   sizes,
-  quality = 95
+  quality = 75
 }: BrandMarqueeProps) {
   const defaultBrands = [
     "0.webp", "1.webp", "10-National-Geographic-Channel.webp", "10.webp", "11.webp",
@@ -48,7 +48,7 @@ export default function BrandMarquee({
                 src={`/${imagesFolder}/${brand}`} 
                 alt="Channel Logo" 
                 fill
-                sizes={sizes || "(max-width: 640px) 180px, (max-width: 1024px) 260px, 320px"}
+                sizes={sizes || "(max-width: 640px) 120px, 160px"}
                 quality={quality}
                 className={imageClassName || "object-contain drop-shadow-md rounded-lg"}
               />

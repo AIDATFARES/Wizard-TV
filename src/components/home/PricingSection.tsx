@@ -151,7 +151,7 @@ export default function PricingSection() {
                 
                 <div className="mt-6 flex flex-col items-center justify-center">
                   <span className="text-5xl font-black tracking-tighter text-slate-900">${priceFor(plan)}</span>
-                  <span className="mt-1 text-xs font-semibold text-slate-400">{plan.period}</span>
+                  <span className="mt-1 text-xs font-semibold text-slate-500">{plan.period}</span>
                 </div>
                 
                 <div className="min-h-[20px] mt-2 flex items-center justify-center gap-2">
@@ -159,7 +159,7 @@ export default function PricingSection() {
                     <p className="text-xs font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full">{plan.saving}</p>
                   )}
                   {plan.oldPrice && (
-                     <p className="text-xs font-semibold text-slate-400 line-through">${(plan.oldPrice * devices).toFixed(2)}</p>
+                     <p className="text-xs font-semibold text-slate-500 line-through">${(plan.oldPrice * devices).toFixed(2)}</p>
                   )}
                 </div>
               </div>
@@ -191,7 +191,7 @@ export default function PricingSection() {
                 >
                   {plan.buttonText} &rarr;
                 </button>
-                <p className="text-center text-[11px] font-medium text-slate-400 mt-3">
+                <p className="text-center text-[11px] font-medium text-slate-500 mt-3">
                   Instant Activation
                 </p>
               </div>
@@ -211,7 +211,7 @@ export default function PricingSection() {
               <p className="text-sm text-slate-500">Pay safely using Crypto (USDT, BTC), Credit Card, or PayPal. Your credentials are delivered in seconds.</p>
             </div>
 
-            <div className="flex items-center gap-4 text-slate-400">
+            <div className="flex items-center gap-4 text-slate-600">
               <CreditCard className="h-8 w-8 hover:text-[#8A2BE2] transition-colors" />
               <Bitcoin className="h-8 w-8 hover:text-[#8A2BE2] transition-colors" />
               <Wallet className="h-8 w-8 hover:text-[#8A2BE2] transition-colors" />

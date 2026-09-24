@@ -12,8 +12,10 @@ export default function HeroSection() {
           src="/wizard-hero-banner.webp"
           alt="Wizard TV Interface"
           priority
+          fetchPriority="high"
           fill
-          sizes="100vw"
+          sizes="(max-width: 768px) 100vw, 1400px"
+          quality={75}
           className="object-cover"
         />
         {/* Smooth bottom edge blend only */}
@@ -31,8 +33,8 @@ export default function HeroSection() {
         </div>
 
         {/* Headline */}
-        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1] text-white drop-shadow-2xl mt-4">
-          Experience <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 drop-shadow-[0_0_25px_rgba(245,158,11,0.5)]">Wizard TV</span><br />
+        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[80px] font-black tracking-tight leading-[1.08] sm:leading-[1] text-white drop-shadow-2xl mt-4">
+          Experience <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-amber-400 to-amber-500 drop-shadow-[0_0_25px_rgba(245,158,11,0.5)]">Wizard TV</span><br className="hidden sm:inline" />{" "}
           The Magic of Streaming
         </h1>
 

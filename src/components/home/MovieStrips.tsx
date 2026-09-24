@@ -28,7 +28,7 @@ export default function MovieStrips() {
         <h2 className="text-3xl md:text-5xl font-extrabold text-black mb-4 tracking-tight">
           THE ULTIMATE <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8A2BE2] to-amber-500">CINEMATIC</span> EXPERIENCE
         </h2>
-        <p className="text-gray-400 max-w-2xl mx-auto text-sm md:text-base mb-8">
+        <p className="text-slate-600 max-w-2xl mx-auto text-sm md:text-base mb-8">
           Explore a massive library of 200,000+ Films & Series. From the latest blockbuster hits to timeless classics, all available instantly in crystal-clear 4K Ultra HD.
         </p>
         <Link 
@@ -41,24 +41,24 @@ export default function MovieStrips() {
 
       {/* Brand Logos Tape */}
       <div className="z-20 w-full mb-10">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-6">50,000+ Premium Live Channels</h3>
+        <h3 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-6">50,000+ Premium Live Channels</h3>
         <BrandMarquee />
       </div>
 
       {/* Top Strip (Right to Left) */}
       <div className="w-full mb-4 z-20">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-2">200,000+ Latest Movies & Series</h3>
+        <h3 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-2">200,000+ Latest Movies & Series</h3>
       </div>
       <div className="relative flex w-max items-center">
         <div className="flex gap-4 md:gap-6 px-2 md:px-3 animate-marquee" style={{ animationDuration: '30s' }}>
-          {[...movieImages, ...movieImages, ...movieImages].map((img, i) => (
+          {[...movieImages, ...movieImages].map((img, i) => (
             <div key={i} className="flex-shrink-0 w-[240px] h-[135px] md:w-[340px] md:h-[190px] relative rounded-xl overflow-hidden shadow-xl border border-slate-200 hover:scale-105 hover:border-[#7000FF]/50 hover:shadow-2xl hover:z-10 transition-all duration-300">
               <Image 
                 src={`/fillem/${img}`} 
                 alt="Media Thumbnail" 
                 fill 
-                sizes="(max-width: 640px) 480px, (max-width: 1024px) 680px, 800px" 
-                quality={95}
+                sizes="(max-width: 640px) 240px, 340px" 
+                quality={75}
                 className="object-cover" 
               />
             </div>

@@ -161,7 +161,7 @@ export default function PricingPageContent() {
                 
                 <div className="mt-6 flex flex-col items-center justify-center">
                   <span className="text-5xl font-black tracking-tighter text-primary-500">${priceFor(plan)}</span>
-                  <span className="mt-1 text-xs font-semibold text-slate-400">{plan.period}</span>
+                  <span className="mt-1 text-xs font-semibold text-slate-500">{plan.period}</span>
                 </div>
                 
                 <div className="min-h-[20px] mt-2 flex items-center justify-center gap-2">
@@ -169,7 +169,7 @@ export default function PricingPageContent() {
                     <p className="text-xs font-bold text-accent-500">{plan.saving}</p>
                   )}
                   {plan.oldPrice && (
-                     <p className="text-xs font-semibold text-slate-400 line-through">${(plan.oldPrice * devices).toFixed(2)}</p>
+                     <p className="text-xs font-semibold text-slate-500 line-through">${(plan.oldPrice * devices).toFixed(2)}</p>
                   )}
                 </div>
               </div>
@@ -201,7 +201,7 @@ export default function PricingPageContent() {
                 >
                   {plan.buttonText} &rarr;
                 </button>
-                <p className="text-center text-[11px] font-medium text-slate-400 mt-3">
+                <p className="text-center text-[11px] font-medium text-slate-500 mt-3">
                   Instant Activation
                 </p>
               </div>
