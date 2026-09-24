@@ -20,7 +20,7 @@ export default function DeviceSupport() {
             <div className="relative rounded-[2rem] overflow-hidden border-2 border-white bg-white/50 backdrop-blur-md p-4 shadow-[0_20px_50px_rgba(112,0,255,0.1)] transition-transform duration-700 group-hover:-translate-y-2 group-hover:rotate-1">
               <div className="relative rounded-2xl overflow-hidden shadow-inner">
                 <Image
-                  src="/devices-banner-neon.webp"
+                  src="/wizard-devices-banner.webp"
                   alt="Supported IPTV Devices"
                   width={800}
                   height={500}
@@ -46,12 +46,12 @@ export default function DeviceSupport() {
               </span>
               <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-black leading-[1.1] tracking-tight mb-8">
                 Stream Seamlessly on <br />
-                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7000FF] to-[#FF00BD]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8A2BE2] via-[#A855F7] to-[#F59E0B]">
                   Any Device
                 </span>
               </h2>
               <p className="text-slate-500 text-lg md:text-xl leading-relaxed w-full">
-                ArgonTV is designed to adapt to your lifestyle. From the biggest screen in your living room to the smartphone in your pocket, enjoy a <Link href="/installation" className="font-semibold text-[#7000FF] hover:text-[#FF00BD] hover:underline transition-colors">premium viewing experience</Link> anywhere.
+                Wizard TV is designed to adapt to your lifestyle. From the biggest screen in your living room to the smartphone in your pocket, enjoy a <Link href="/installation" className="font-semibold text-[#8A2BE2] hover:text-amber-500 hover:underline transition-colors">premium viewing experience</Link> anywhere.
               </p>
             </div>
 

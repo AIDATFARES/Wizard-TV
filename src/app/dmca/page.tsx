@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Legal Disclaimer & DMCA | ArgonTV",
-  description: "Legal Disclaimer and DMCA policy for ArgonTV.",
+  title: "Legal Disclaimer & DMCA Policy | Wizard TV",
+  description: "Review the Wizard TV legal disclaimer and DMCA copyright compliance policy regarding our streaming services and platform terms.",
   alternates: {
     canonical: "/dmca",
   },
@@ -19,7 +19,7 @@ const sections = [
   {
     title: "Content Ownership and Hosting",
     content: [
-      "ArgonTV does not possess, manage, upload, store, or distribute copyrighted materials. All streams available via your account are sourced from external parties on the public internet. Mentions of channels, logos, or trademarks are solely for identification purposes and are owned by their respective entities.",
+      "Wizard TV does not possess, manage, upload, store, or distribute copyrighted materials. All streams available via your account are sourced from external parties on the public internet. Mentions of channels, logos, or trademarks are solely for identification purposes and are owned by their respective entities.",
     ],
   },
   {
@@ -49,13 +49,13 @@ const sections = [
   {
     title: "Limitation of Liability",
     content: [
-      "ArgonTV, its owners, affiliates, employees, and agents shall not be liable to the fullest extent permitted by law for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, profits, or goodwill connected to your use of the site or service.",
+      "Wizard TV, its owners, affiliates, employees, and agents shall not be liable to the fullest extent permitted by law for any indirect, incidental, special, consequential, exemplary, or punitive damages, or for loss of data, profits, or goodwill connected to your use of the site or service.",
     ],
   },
   {
     title: "Indemnification",
     content: [
-      "You agree to defend, indemnify, and shield ArgonTV from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) related to your use of the service or any infringement of this disclaimer or applicable law.",
+      "You agree to defend, indemnify, and shield Wizard TV from any claims, liabilities, damages, losses, and expenses (including reasonable attorney fees) related to your use of the service or any infringement of this disclaimer or applicable law.",
     ],
   },
   {
@@ -85,13 +85,13 @@ export default function DmcaPage() {
   const currentDate = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   
   return (
-    <main className="flex-grow px-5 pb-20 pt-12 sm:px-8 md:pt-16">
+    <main className="flex-grow px-5 pb-20 pt-4 sm:px-8 md:pt-6">
       <article className="mx-auto max-w-4xl">
         <header className="border-b border-black/10 pb-10 text-center mx-auto max-w-3xl">
           <span className="inline-flex rounded-full border border-primary-400/35 bg-primary-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-300">Legal information</span>
           <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
             <span className="block text-black">Legal Disclaimer</span>
-            <span className="mt-1 block text-[#7000FF]">&amp; DMCA Notice.</span>
+            <span className="mt-1 block text-[#8A2BE2]">&amp; DMCA Notice.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600">Last updated: {currentDate}</p>
         </header>
@@ -100,7 +100,7 @@ export default function DmcaPage() {
           <div className="space-y-4">
             <p>Content featured on this website is meant for general informational use and does not serve as legal advice. By engaging with our site or services, you agree to this disclaimer.</p>
             <div className="rounded-xl border border-accent-500/20 bg-accent-500/10 p-5 text-sm">
-              <strong className="text-black">Important:</strong> ArgonTV delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided &apos;as is&apos; for general guidance, not legal counsel.
+              <strong className="text-black">Important:</strong> Wizard TV delivers an intuitive IPTV service interface alongside account provisioning. We do not host, upload, store, or archive any audiovisual content. The details on this site are provided &apos;as is&apos; for general guidance, not legal counsel.
             </div>
           </div>
 

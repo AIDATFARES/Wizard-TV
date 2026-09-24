@@ -4,7 +4,7 @@ import { Mail, MessageCircle, ArrowRight, Clock, Send } from "lucide-react";
 
 export default function Contact() {
   return (
-    <main className="flex-grow pt-32 pb-24 px-6 md:px-12 max-w-[1440px] mx-auto w-full relative z-10">
+    <main className="flex-grow pt-4 md:pt-6 pb-24 px-6 md:px-12 max-w-[1440px] mx-auto w-full relative z-10">
       <div className="mx-auto mb-14 max-w-3xl text-center">
         <span className="inline-block py-1.5 px-4 rounded-full bg-[#7000FF]/10 text-[#7000FF] font-bold text-xs tracking-widest uppercase mb-6 border border-[#7000FF]/20">
           Contact Support
@@ -28,14 +28,14 @@ export default function Contact() {
             <h3 className="font-bold text-xl text-black mb-2">Email Us</h3>
             <p className="text-sm text-slate-500 mb-6 font-medium">For general inquiries and support.</p>
             <a
-              className="text-[#7000FF] font-bold hover:text-[#FF00BD] transition-colors"
-              href="mailto:support@argontv.shop"
+              className="text-[#8A2BE2] font-bold hover:text-amber-500 transition-colors"
+              href="mailto:support@wizardtv.site"
             >
-              support@argontv.shop
+              support@wizardtv.site
             </a>
           </div>
 
-          <div className="bg-white shadow-[0_20px_40px_-15px_rgba(112,0,255,0.15)] border border-slate-100 rounded-[2rem] p-8 flex flex-col items-center text-center group hover:-translate-y-1 transition-transform duration-300">
+          <div className="bg-white shadow-[0_20px_40px_-15px_rgba(138,43,226,0.15)] border border-slate-100 rounded-[2rem] p-8 flex flex-col items-center text-center group hover:-translate-y-1 transition-transform duration-300">
             <div className="w-16 h-16 rounded-2xl bg-[#25D366]/10 flex items-center justify-center mb-6 group-hover:bg-[#25D366]/20 transition-colors">
               <MessageCircle className="text-[#25D366] w-8 h-8" />
             </div>
@@ -45,7 +45,7 @@ export default function Contact() {
             </p>
             <a
               className="text-[#25D366] font-bold hover:text-[#20bd5a] transition-colors flex items-center gap-2"
-              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20ArgonTV."
+              href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20Wizard%20TV."
               target="_blank"
               rel="noreferrer"
             >

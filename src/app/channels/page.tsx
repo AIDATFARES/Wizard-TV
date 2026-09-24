@@ -163,7 +163,7 @@ export default function ChannelsPage() {
   }, [selectedTab, searchQuery]);
 
   return (
-    <main className="min-h-screen bg-white text-black pt-24 pb-24 relative overflow-hidden">
+    <main className="min-h-screen bg-white text-black pt-4 md:pt-6 pb-24 relative overflow-hidden">
       {/* Background Decorative Glow */}
       <div className="absolute top-[10%] left-[5%] w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(112,0,255,0.06)_0%,transparent_65%)] rounded-full pointer-events-none z-0" />
       <div className="absolute top-[40%] right-[5%] w-[600px] h-[600px] bg-[radial-gradient(circle,rgba(255,0,189,0.04)_0%,transparent_65%)] rounded-full pointer-events-none z-0" />
@@ -187,8 +187,8 @@ export default function ChannelsPage() {
             transition={{ delay: 0.1 }}
             className="mt-2 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight"
           >
-            <span className="block text-black">Popular ArgonTV</span>
-            <span className="mt-1 block text-[#7000FF]">Live Channels &amp; VOD.</span>
+            <span className="block text-black">Popular Wizard TV</span>
+            <span className="mt-1 block text-[#8A2BE2]">Live Channels &amp; VOD.</span>
           </motion.h1>
 
           <motion.p 
@@ -353,15 +353,15 @@ export default function ChannelsPage() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/pricing"
-                className="px-8 py-4 rounded-full bg-black text-white font-black text-sm uppercase tracking-wider hover:bg-[#7000FF] transition-colors"
+                className="px-8 py-4 rounded-full bg-black text-white font-black text-sm uppercase tracking-wider hover:bg-[#8A2BE2] transition-colors"
               >
                 View IPTV Subscription Plans
               </Link>
               <a
-                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20argontv%20IPTV."
+                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Wizard%20TV."
                 target="_blank"
                 rel="noreferrer"
-                className="px-8 py-4 rounded-full bg-white border-2 border-slate-200 text-black font-black text-sm uppercase tracking-wider hover:border-[#7000FF] transition-colors"
+                className="px-8 py-4 rounded-full bg-white border-2 border-slate-200 text-black font-black text-sm uppercase tracking-wider hover:border-[#8A2BE2] transition-colors"
               >
                 Get Free Trial via WhatsApp
               </a>

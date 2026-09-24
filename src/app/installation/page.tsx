@@ -5,6 +5,8 @@ import BrandMarquee from "@/components/home/BrandMarquee";
 import { Clock3, Download, Headphones, Link2, Monitor, PlayCircle } from "lucide-react";
 
 export const metadata = {
+  title: "IPTV Setup Guide for All Devices | Wizard TV",
+  description: "Easy step-by-step setup guides to install Wizard TV on Firestick, Smart TVs, Android, iOS, Windows, and MAG. Start streaming in minutes.",
   alternates: {
     canonical: "/installation",
   },
@@ -13,15 +15,15 @@ export const metadata = {
 
 export default function Installation() {
   return (
-    <main className="mx-auto w-full max-w-[1440px] flex-grow px-5 pb-20 pt-12 sm:px-8 md:px-12 text-format-technical">
+    <main className="mx-auto w-full max-w-[1440px] flex-grow px-5 pb-20 pt-4 sm:px-8 md:px-12 text-format-technical">
       <header className="mx-auto mb-16 max-w-3xl text-center sm:mb-20">
         <span className="inline-flex rounded-full border border-primary-400/35 bg-primary-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-300">Installation Guide</span>
         <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.05] tracking-tight">
           <span className="block text-black">How to Setup IPTV Service</span>
-          <span className="mt-1 block text-[#7000FF]">On Any Device Quickly.</span>
+          <span className="mt-1 block text-[#8A2BE2]">On Any Device Quickly.</span>
         </h1>
-        <p className="mx-auto mt-5 max-w-2xl text-base leading-6 text-slate-600">Comprehensive step-by-step instructions to configure ArgonTV on all your devices.</p>
-        <p className="mx-auto mt-2 max-w-2xl text-base leading-6 text-slate-600">ArgonTV works on Smart TVs, Firestick, Android, iOS, MAG, and more. New to ArgonTV? Check <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/pricing">ArgonTV Pricing</Link>, or browse the <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/channels">ArgonTV Channel List</Link> before you start.</p>
+        <p className="mx-auto mt-5 max-w-2xl text-base leading-6 text-slate-600">Comprehensive step-by-step instructions to configure Wizard TV on all your devices.</p>
+        <p className="mx-auto mt-2 max-w-2xl text-base leading-6 text-slate-600">Wizard TV works on Smart TVs, Firestick, Android, iOS, MAG, and more. New to Wizard TV? Check <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/pricing">Wizard TV Pricing</Link>, or browse the <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/channels">Wizard TV Channel List</Link> before you start.</p>
         <div className="mt-10 flex flex-wrap justify-center gap-x-9 gap-y-4 text-sm font-semibold text-slate-700">
           <span className="inline-flex items-center gap-2"><Monitor className="h-4 w-4 text-primary-400" />15+ Devices Supported</span>
           <span className="inline-flex items-center gap-2"><Clock3 className="h-4 w-4 text-primary-300" />5–15 Minutes Setup</span>
@@ -33,11 +35,11 @@ export default function Installation() {
         <div className="mx-auto max-w-[1000px] px-5">
           <header className="mx-auto mb-10 max-w-[560px] text-center">
             <h2 className="text-3xl font-extrabold tracking-tight text-black">Quick Start Guide</h2>
-            <p className="mt-3 text-slate-600">Get started with ArgonTV quickly and easily in three straightforward steps.</p>
+            <p className="mt-3 text-slate-600">Get started with Wizard TV quickly and easily in three straightforward steps.</p>
           </header>
           <div className="grid gap-8 md:grid-cols-3">
             <QuickStartCard icon={Download} step="1" title="Download App">Download and install a suitable IPTV player app on your device from the app store or the official site.</QuickStartCard>
-            <QuickStartCard icon={Link2} step="2" title="Add M3U URL">Input your ArgonTV M3U playlist URL and EPG URL, which are included in your welcome email.</QuickStartCard>
+            <QuickStartCard icon={Link2} step="2" title="Add M3U URL">Input your Wizard TV M3U playlist URL and EPG URL, which are included in your welcome email.</QuickStartCard>
             <QuickStartCard icon={PlayCircle} step="3" title="Start Streaming">Gain immediate access to live channels, movies and TV shows in stunning 4K quality.</QuickStartCard>
           </div>
 

@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | ArgonTV",
-  description: "Learn how ArgonTV collects, uses, and protects personal information.",
+  title: "Privacy Policy | Wizard TV",
+  description: "Learn how Wizard TV collects, uses, and safeguards your personal data. We are committed to protecting your privacy and security.",
   alternates: {
     canonical: "/privacy-policy",
   },
@@ -79,7 +79,7 @@ const sections = [
 
 export default function PrivacyPolicyPage() {
   return (
-    <main className="flex-grow px-5 pb-20 pt-12 sm:px-8 md:pt-16 text-format-legal">
+    <main className="flex-grow px-5 pb-20 pt-4 sm:px-8 md:pt-6 text-format-legal">
       <article className="mx-auto max-w-4xl">
         <header className="border-b border-black/10 pb-10 text-center mx-auto max-w-3xl">
           <span className="inline-flex rounded-full border border-primary-400/35 bg-primary-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-300">Legal information</span>
@@ -91,7 +91,7 @@ export default function PrivacyPolicyPage() {
         </header>
 
         <div className="mt-10 space-y-10 text-base leading-7 text-on-surface-variant">
-          <p>Welcome to ArgonTV. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/contact">contact our support team</Link>.</p>
+          <p>Welcome to Wizard TV. We are committed to protecting your personal information and respecting your privacy. If you have questions or concerns about this policy or our data practices, please <Link className="font-semibold text-primary-400 hover:text-primary-300" href="/contact">contact our support team</Link>.</p>
           {sections.map((section) => (
             <section key={section.title}>
               <h2 className="text-2xl font-bold text-black">{section.title}</h2>

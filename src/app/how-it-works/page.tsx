@@ -3,8 +3,11 @@ import Link from "next/link";
 import { PlayCircle, ShieldCheck, Zap, Phone, MonitorSmartphone, Globe2, CheckCircle2 } from "lucide-react";
 
 export const metadata = {
-  title: "How It Works | ArgonTV",
-  description: "Learn how easy it is to set up and start streaming with ArgonTV. Our 3-step process gets you watching premium live TV and VOD in minutes.",
+  title: "How It Works | 3 Easy Steps to Start Streaming - Wizard TV",
+  description: "See how easy it is to watch TV with Wizard TV. Pick your plan, receive instant login credentials, and stream live 4K TV on any device in under 5 minutes.",
+  alternates: {
+    canonical: "/how-it-works",
+  },
 };
 
 export default function HowItWorksPage() {
@@ -12,7 +15,7 @@ export default function HowItWorksPage() {
     <main className="flex-col flex min-h-screen bg-black">
       
       {/* Page Hero Header */}
-      <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden border-b border-white/10">
+      <section className="relative pt-4 pb-16 md:pt-6 md:pb-20 overflow-hidden border-b border-white/10">
         <div className="absolute inset-0 bg-gradient-to-b from-[#7000FF]/15 to-transparent z-0"></div>
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-[#7000FF]/20 blur-[120px] rounded-full z-0 pointer-events-none"></div>
         
@@ -37,48 +40,48 @@ export default function HowItWorksPage() {
         <HowItWorksSection />
       </div>
 
-      {/* Why Choose ArgonTV - Pill Grid */}
+      {/* Why Choose Wizard TV - Pill Grid */}
       <section className="py-20 bg-white text-black relative z-10 border-t border-black/10">
         <div className="max-w-[1000px] mx-auto px-6 text-center">
           <h2 className="text-2xl md:text-3xl font-extrabold tracking-tight mb-10 uppercase">
-            Why Choose <span className="text-[#7000FF]">ArgonTV</span>?
+            Why Choose <span className="text-[#8A2BE2]">Wizard TV</span>?
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
             
             {/* Pill 1 */}
-            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#7000FF]/40 hover:shadow-md transition-all bg-white">
-              <ShieldCheck className="text-[#7000FF] shrink-0" size={20} />
+            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#8A2BE2]/40 hover:shadow-md transition-all bg-white">
+              <ShieldCheck className="text-[#8A2BE2] shrink-0" size={20} />
               <span className="text-sm font-bold text-slate-700">Secure & encrypted payments</span>
             </div>
 
             {/* Pill 2 */}
-            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#7000FF]/40 hover:shadow-md transition-all bg-white">
-              <Zap className="text-[#7000FF] shrink-0" size={20} />
+            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#8A2BE2]/40 hover:shadow-md transition-all bg-white">
+              <Zap className="text-[#8A2BE2] shrink-0" size={20} />
               <span className="text-sm font-bold text-slate-700">Instant delivery within 5 mins</span>
             </div>
 
             {/* Pill 3 */}
-            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#7000FF]/40 hover:shadow-md transition-all bg-white">
-              <Phone className="text-[#7000FF] shrink-0" size={20} />
+            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#8A2BE2]/40 hover:shadow-md transition-all bg-white">
+              <Phone className="text-[#8A2BE2] shrink-0" size={20} />
               <span className="text-sm font-bold text-slate-700">24/7 dedicated support</span>
             </div>
 
             {/* Pill 4 */}
-            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#7000FF]/40 hover:shadow-md transition-all bg-white">
-              <MonitorSmartphone className="text-[#7000FF] shrink-0" size={20} />
+            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#8A2BE2]/40 hover:shadow-md transition-all bg-white">
+              <MonitorSmartphone className="text-[#8A2BE2] shrink-0" size={20} />
               <span className="text-sm font-bold text-slate-700">Works on all devices</span>
             </div>
 
             {/* Pill 5 */}
-            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#7000FF]/40 hover:shadow-md transition-all bg-white">
-              <Globe2 className="text-[#7000FF] shrink-0" size={20} />
+            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#8A2BE2]/40 hover:shadow-md transition-all bg-white">
+              <Globe2 className="text-[#8A2BE2] shrink-0" size={20} />
               <span className="text-sm font-bold text-slate-700">150+ countries covered</span>
             </div>
 
             {/* Pill 6 */}
-            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#7000FF]/40 hover:shadow-md transition-all bg-white">
-              <CheckCircle2 className="text-[#7000FF] shrink-0" size={20} />
+            <div className="flex items-center gap-3 p-4 rounded-xl border border-slate-200 hover:border-[#8A2BE2]/40 hover:shadow-md transition-all bg-white">
+              <CheckCircle2 className="text-[#8A2BE2] shrink-0" size={20} />
               <span className="text-sm font-bold text-slate-700">No contracts or hidden fees</span>
             </div>
 
@@ -87,7 +90,7 @@ export default function HowItWorksPage() {
       </section>
 
       {/* Large Solid CTA Block */}
-      <section className="py-24 bg-gradient-to-r from-[#7000FF] to-[#FF00BD] text-center relative z-10 shadow-[0_-10px_40px_rgba(112,0,255,0.2)]">
+      <section className="py-24 bg-gradient-to-r from-[#8A2BE2] via-[#7C3AED] to-[#F59E0B] text-center relative z-10 shadow-[0_-10px_40px_rgba(138,43,226,0.2)]">
         <div className="max-w-3xl mx-auto px-6">
           <h2 className="text-3xl md:text-5xl font-black text-white mb-6 uppercase tracking-tight drop-shadow-lg">
             Ready to Start Streaming?
@@ -98,9 +101,9 @@ export default function HowItWorksPage() {
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link 
-              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20argontv%20IPTV." 
+              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Wizard%20TV." 
               target="_blank"
-              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-bold text-[#7000FF] bg-white rounded-xl shadow-xl hover:scale-105 hover:bg-slate-50 transition-all duration-300"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 text-base font-bold text-[#8A2BE2] bg-white rounded-xl shadow-xl hover:scale-105 hover:bg-slate-50 transition-all duration-300"
             >
               Get Free Trial &rarr;
             </Link>

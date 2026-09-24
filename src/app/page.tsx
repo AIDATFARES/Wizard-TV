@@ -1,7 +1,10 @@
 import HeroSection from "@/components/home/HeroSection";
 import Link from "next/link";
+import type { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
+  title: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
+  description: "Experience premium streaming with Wizard TV. Enjoy 50,000+ live TV channels, live sports, PPV events, and 120,000+ movies & series in stunning 4K & FHD. Instant setup!",
   alternates: {
     canonical: "/",
   },
@@ -34,20 +37,23 @@ export default function Home() {
         <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-4">All Major Sports & Leagues Live</h3>
       </div>
       <BrandMarquee 
-        imagesFolder="dawryate2" 
+        imagesFolder="channel5" 
         images={[
-          "Untitled-design-50.webp", "Untitled-design-51.webp", "Untitled-design-52.webp", 
-          "Untitled-design-53.webp", "Untitled-design-54.webp", "Untitled-design-55.webp", 
-          "Untitled-design-56.webp", "Untitled-design-57.webp", "Untitled-design-58.webp"
+          "sport-1.webp", "sport-2.webp", "sport-3.webp", 
+          "sport-4.webp", "sport-5.webp", "sport-6.webp", 
+          "sport-7.webp", "sport-8.webp", "sport-9.webp", 
+          "sport-10.webp", "sport-11.webp"
         ]}
-        cardClassName="flex-shrink-0 w-[140px] h-[200px] md:w-[200px] md:h-[280px] relative rounded-xl overflow-hidden shadow-2xl border border-black/10 bg-white hover:border-[#7000FF]/60 transition-all duration-300 group"
+        cardClassName="flex-shrink-0 w-[140px] h-[200px] md:w-[200px] md:h-[280px] relative rounded-xl overflow-hidden shadow-2xl border border-black/10 bg-white hover:border-[#8A2BE2]/60 transition-all duration-300 group"
         imageClassName="object-cover rounded-xl"
+        sizes="(max-width: 640px) 280px, (max-width: 1024px) 400px, 500px"
+        quality={95}
       />
 
       {/* Channel & Installation Quick Links */}
       <div className="w-full bg-white py-6 px-4 text-center border-t border-black/5 relative z-20">
         <p className="text-center text-sm md:text-base text-slate-600 max-w-3xl mx-auto">
-          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#7000FF] hover:text-[#f44336]" href="/channels">ArgonTV Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#7000FF] hover:text-[#f44336]" href="/installation">ArgonTV Installation Guide</Link> for a quick start.
+          Find the comprehensive <Link prefetch={false} className="font-semibold text-[#8A2BE2] hover:text-amber-500" href="/channels">Wizard TV Channel List</Link> or navigate to our <Link prefetch={false} className="font-semibold text-[#8A2BE2] hover:text-amber-500" href="/installation">Wizard TV Installation Guide</Link> for a quick start.
         </p>
       </div>
 
@@ -78,6 +84,8 @@ export default function Home() {
           ]}
           cardClassName="flex-shrink-0 w-[160px] h-[80px] md:w-[220px] md:h-[100px] relative bg-white border border-slate-200 rounded-2xl p-4 md:p-6 hover:border-primary-300 transition-all duration-300 shadow-md flex items-center justify-center"
           imageClassName="object-contain drop-shadow-sm"
+          sizes="(max-width: 640px) 240px, (max-width: 1024px) 340px, 440px"
+          quality={95}
         />
       </div>
 

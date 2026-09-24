@@ -22,23 +22,37 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "ArgonTV | #1 Premium 4K IPTV Subscription Service",
-  description: "Upgrade your entertainment with ArgonTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
-  metadataBase: new URL("https://www.argontv.shop"),
+  title: {
+    default: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
+    template: "%s | Wizard TV",
+  },
+  description: "Stream 50,000+ live TV channels, PPV events, sports, and 120,000+ movies & series in crystal-clear 4K/FHD. Fast activation, anti-freeze tech & 24/7 support.",
+  metadataBase: new URL("https://www.wizardtv.site"),
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: [
+      { url: "/icon.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+    ],
+  },
   openGraph: {
-    title: "ArgonTV | #1 Premium 4K IPTV Subscription Service",
-    description: "Upgrade your entertainment with ArgonTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
-    url: "https://www.argontv.shop",
-    siteName: "ArgonTV",
+    title: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
+    description: "Stream 50,000+ live TV channels, PPV events, sports, and 120,000+ movies & series in crystal-clear 4K/FHD. Fast activation, anti-freeze tech & 24/7 support.",
+    url: "https://www.wizardtv.site",
+    siteName: "Wizard TV",
     images: [
       {
-        url: "/og-image-argontv.webp",
+        url: "/og-image-wizardtv.webp",
         width: 1200,
         height: 630,
-        alt: "ArgonTV Premium IPTV Service",
+        alt: "Wizard TV Premium IPTV Service",
       },
     ],
     locale: "en_US",
@@ -46,9 +60,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ArgonTV | #1 Premium 4K IPTV Subscription Service",
-    description: "Upgrade your entertainment with ArgonTV. Stream 50,000+ live TV channels, live sports, and 120,000+ movies & series in stunning 4K/FHD. Start your subscription today!",
-    images: ["/og-image-argontv.webp"],
+    title: "Wizard TV | #1 Premium 4K IPTV Subscription Service",
+    description: "Stream 50,000+ live TV channels, PPV events, sports, and 120,000+ movies & series in crystal-clear 4K/FHD. Fast activation, anti-freeze tech & 24/7 support.",
+    images: ["/og-image-wizardtv.webp"],
   },
 };
 
@@ -73,7 +87,7 @@ export default function RootLayout({
             <div className="col-span-2 sm:col-span-4 xl:col-span-1 min-w-0 max-w-[310px] space-y-4">
               <Link href="/"><BrandLogo /></Link>
               <p className="max-w-[285px] whitespace-normal break-normal text-sm leading-6 text-slate-700">
-                © 2024 argontv. Premium 4K IPTV Streaming Services. All rights reserved.
+                © 2026 Wizard TV. Premium 4K IPTV Streaming Services. All rights reserved.
               </p>
               <a href="https://wa.me/213552069874" target="_blank" rel="noreferrer" className="flex max-w-[270px] items-center gap-3 rounded-2xl border border-[#25D366]/30 bg-[#25D366]/[0.08] p-3.5 transition-colors hover:bg-[#25D366]/[0.15] group">
                 <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[#25D366] text-white shadow-lg shadow-[#25D366]/20 transition-transform group-hover:scale-105">
@@ -90,33 +104,33 @@ export default function RootLayout({
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
-              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-700"><span className="border-b-2 border-[#7000FF] pb-1.5">NAVIGATION</span></p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-700"><span className="border-b-2 border-[#8A2BE2] pb-1.5">NAVIGATION</span></p>
               <ul className="space-y-3 font-body-sm text-sm">
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/">Home</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/pricing">Pricing</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/how-it-works">How It Works</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/channels">Channels</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/reseller">Reseller</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/">Home</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/pricing">Pricing</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/how-it-works">How It Works</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/channels">Channels</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/reseller">Reseller</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
-              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-700"><span className="border-b-2 border-[#7000FF] pb-1.5">SERVICE</span></p>
+              <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-700"><span className="border-b-2 border-[#8A2BE2] pb-1.5">SERVICE</span></p>
               <ul className="space-y-3 font-body-sm text-sm">
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/pricing">Get Started</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/contact">Contact Support</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/faq">FAQ</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/blog">Blog</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/installation">Setup Guide</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/pricing">Get Started</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/contact">Contact Support</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/faq">FAQ</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/blog">Blog</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/installation">Setup Guide</Link></li>
               </ul>
             </div>
             
             <div className="col-span-1 min-w-0 space-y-6">
               <p className="text-xs font-extrabold uppercase tracking-[0.16em] text-slate-700"><span className="border-b-2 border-primary-500 pb-1.5">LEGAL</span></p>
               <ul className="space-y-3 text-sm">
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/privacy-policy">Privacy Policy</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/refund-policy">Refund Policy</Link></li>
-                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#7000FF]" href="/dmca">DMCA</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/privacy-policy">Privacy Policy</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/refund-policy">Refund Policy</Link></li>
+                <li><Link prefetch={false} className="text-slate-600 transition-colors hover:text-[#8A2BE2]" href="/dmca">DMCA</Link></li>
               </ul>
             </div>
             
@@ -132,9 +146,9 @@ export default function RootLayout({
             
             <div className="col-span-2 mt-8 flex flex-col gap-6 border-t border-black/10 pt-8 text-xs text-slate-600 sm:col-span-4 md:flex-row md:items-center md:justify-between xl:col-span-5">
               <div className="flex flex-wrap gap-3">
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#7000FF]/10 hover:text-[#7000FF] hover:border-[#7000FF]/20" href="/privacy-policy">Privacy Policy</Link>
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#7000FF]/10 hover:text-[#7000FF] hover:border-[#7000FF]/20" href="/refund-policy">Refund Policy</Link>
-                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#7000FF]/10 hover:text-[#7000FF] hover:border-[#7000FF]/20" href="/dmca">DMCA</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#8A2BE2]/10 hover:text-[#8A2BE2] hover:border-[#8A2BE2]/20" href="/privacy-policy">Privacy Policy</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#8A2BE2]/10 hover:text-[#8A2BE2] hover:border-[#8A2BE2]/20" href="/refund-policy">Refund Policy</Link>
+                <Link className="rounded-full border border-black/10 px-4 py-2 transition-colors hover:bg-[#8A2BE2]/10 hover:text-[#8A2BE2] hover:border-[#8A2BE2]/20" href="/dmca">DMCA</Link>
               </div>
             </div>
           </div>

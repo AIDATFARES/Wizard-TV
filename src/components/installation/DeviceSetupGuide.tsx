@@ -17,7 +17,7 @@ const faqs = [
   { question: "1. How do I install IPTV on a Smart TV?", answer: "Install a compatible player such as Smart IPTV or IPTV Smarters from your TV's app store, then add the M3U URL or Xtream credentials from your welcome email." },
   { question: "2. Where do I find my M3U URL?", answer: "Your M3U URL is included in the welcome email sent after activation. Contact support if you need it resent." },
   { question: "3. How can I reduce buffering?", answer: "Use a stable internet connection, restart your device and router, and select an appropriate quality setting for your connection." },
-  { question: "4. How do I set up ArgonTV using Xtream Codes API?", answer: "Choose Xtream Codes API in your player and enter the server URL, username, and password from your welcome email." },
+  { question: "4. How do I set up Wizard TV using Xtream Codes API?", answer: "Choose Xtream Codes API in your player and enter the server URL, username, and password from your welcome email." },
   { question: "5. Can I connect using a MAC address (Portal URL)?", answer: "Yes. MAG and compatible portal devices can be activated using their MAC address. Send it to our support team for assistance." },
 ];
 
@@ -39,7 +39,7 @@ export default function DeviceSetupGuide() {
           const active = item.id === activeDevice;
           return (
             <button 
-              className={`inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors ${active ? "border-primary-600 bg-[#7000FF] text-white shadow-lg shadow-primary-600/30" : "border-black/15 bg-white text-slate-600 hover:border-primary-500/60 hover:text-black hover:bg-orange-50"}`} 
+              className={`inline-flex items-center gap-2 rounded-full border px-5 py-2.5 text-sm font-semibold transition-colors ${active ? "border-primary-600 bg-[#8A2BE2] text-white shadow-lg shadow-[#8A2BE2]/30" : "border-black/15 bg-white text-slate-600 hover:border-primary-500/60 hover:text-black hover:bg-slate-50"}`} 
               key={item.id} 
               onClick={() => setActiveDevice(item.id)} 
               type="button"
@@ -50,16 +50,16 @@ export default function DeviceSetupGuide() {
         })}
       </div>
 
-      <article className="mx-auto max-w-[1000px] rounded-3xl border-2 border-[#7000FF] bg-white p-6 sm:p-10 shadow-2xl overflow-hidden">
+      <article className="mx-auto max-w-[1000px] rounded-3xl border-2 border-[#8A2BE2] bg-white p-6 sm:p-10 shadow-2xl overflow-hidden">
         
         {/* Device Header */}
         <div className="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 border-b border-slate-100 pb-6 mb-8">
-          <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-50 shrink-0">
-            <DeviceIcon className="h-8 w-8 text-[#7000FF]" />
+          <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-50 shrink-0">
+            <DeviceIcon className="h-8 w-8 text-[#8A2BE2]" />
           </div>
           <div>
             <h3 className="text-2xl font-black text-black sm:text-3xl">{device.title}</h3>
-            <p className="mt-1 text-slate-500 font-medium">Follow these steps to configure your {device.label} for ArgonTV.</p>
+            <p className="mt-1 text-slate-500 font-medium">Follow these steps to configure your {device.label} for Wizard TV.</p>
           </div>
         </div>
         

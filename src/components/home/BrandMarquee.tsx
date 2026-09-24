@@ -5,13 +5,17 @@ interface BrandMarqueeProps {
   images?: string[];
   cardClassName?: string;
   imageClassName?: string;
+  sizes?: string;
+  quality?: number;
 }
 
 export default function BrandMarquee({
   imagesFolder = "brands",
   images,
   cardClassName,
-  imageClassName
+  imageClassName,
+  sizes,
+  quality = 95
 }: BrandMarqueeProps) {
   const defaultBrands = [
     "0.webp", "1.webp", "10-National-Geographic-Channel.webp", "10.webp", "11.webp",
@@ -37,14 +41,15 @@ export default function BrandMarquee({
         {repeatList.map((brand, i) => (
           <div 
             key={i} 
-            className={cardClassName || "flex-shrink-0 w-[100px] h-[50px] md:w-[140px] md:h-[65px] relative bg-white border border-stone-200 rounded-xl p-3 hover:bg-stone-50 hover:scale-105 transition-all duration-300 shadow-md"}
+            className={cardClassName || "flex-shrink-0 w-[115px] h-[58px] md:w-[155px] md:h-[72px] relative bg-white border border-stone-200 rounded-xl p-2.5 hover:bg-stone-50 hover:scale-105 transition-all duration-300 shadow-md"}
           >
             <div className="relative w-full h-full overflow-hidden rounded-xl">
               <Image 
                 src={`/${imagesFolder}/${brand}`} 
                 alt="Channel Logo" 
                 fill
-                sizes="(max-width: 640px) 100px, (max-width: 1024px) 140px, 160px"
+                sizes={sizes || "(max-width: 640px) 180px, (max-width: 1024px) 260px, 320px"}
+                quality={quality}
                 className={imageClassName || "object-contain drop-shadow-md rounded-lg"}
               />
             </div>

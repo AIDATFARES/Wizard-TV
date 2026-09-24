@@ -49,19 +49,19 @@
   --color-on-background: #1a1c1c;
   --color-surface-variant: #e2e2e2;
 
-  /* Brand Colors Override - AI Stitch Palette */
-  --color-primary-300: #a34dff;
-  --color-primary-400: #8a1aff;
-  --color-primary-500: #7000FF;
-  --color-primary-600: #5500cc;
+  /* Brand Colors Override - Mystic Magic Palette */
+  --color-primary-300: #c084fc;
+  --color-primary-400: #a855f7;
+  --color-primary-500: #8A2BE2;
+  --color-primary-600: #7c3aed;
   
-  --color-secondary-400: #ff4dce;
-  --color-secondary-500: #FF00BD;
-  --color-secondary-600: #cc0097;
+  --color-secondary-400: #fbbf24;
+  --color-secondary-500: #f59e0b;
+  --color-secondary-600: #d97706;
 
-  --color-accent-400: #4dffff;
-  --color-accent-500: #00F0FF;
-  --color-accent-600: #00b3cc;
+  --color-accent-400: #fde047;
+  --color-accent-500: #eab308;
+  --color-accent-600: #ca8a04;
 
   --radius: 0.25rem;
   --radius-lg: 0.5rem;

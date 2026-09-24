@@ -18,14 +18,28 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
-    return { title: 'Post Not Found | ArgonTV' };
+    return { title: 'Post Not Found | Wizard TV' };
   }
 
   return {
-    title: post.title,
+    title: `${post.title} | Wizard TV`,
     description: post.description,
     alternates: {
       canonical: `/blog/${post.slug}`,
+    },
+    openGraph: {
+      title: `${post.title} | Wizard TV`,
+      description: post.description,
+      url: `https://www.wizardtv.site/blog/${post.slug}`,
+      siteName: "Wizard TV",
+      images: post.coverImage ? [{ url: post.coverImage }] : undefined,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${post.title} | Wizard TV`,
+      description: post.description,
+      images: post.coverImage ? [post.coverImage] : undefined,
     },
   };
 }
@@ -110,7 +124,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   };
 
   return (
-    <main className="flex-grow pt-32 pb-24 px-margin-mobile md:px-margin-desktop max-w-[1024px] mx-auto w-full relative z-10 text-format-blog">
+    <main className="flex-grow pt-4 md:pt-6 pb-24 px-margin-mobile md:px-margin-desktop max-w-[1024px] mx-auto w-full relative z-10 text-format-blog">
       {faqJsonLd && (
         <script
           type="application/ld+json"

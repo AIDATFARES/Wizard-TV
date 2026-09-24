@@ -30,15 +30,15 @@ export default function Navbar() {
   const getLinkClass = (path: string) => {
     const isActive = pathname === path;
     return isActive 
-      ? "text-[#7000FF] border-b-2 border-[#7000FF] pb-1 transition-colors duration-200" 
-      : "text-slate-500 hover:text-[#7000FF] pb-1 transition-colors duration-200 whitespace-nowrap";
+      ? "text-[#8A2BE2] border-b-2 border-[#8A2BE2] pb-1 transition-colors duration-200" 
+      : "text-slate-600 hover:text-[#8A2BE2] pb-1 transition-colors duration-200 whitespace-nowrap";
   };
 
   const getMobileLinkClass = (path: string) => {
     const isActive = pathname === path;
     return isActive
-      ? "text-[#7000FF] py-1 font-bold"
-      : "hover:text-[#7000FF] py-1 transition-colors text-slate-700";
+      ? "text-[#8A2BE2] py-1 font-bold"
+      : "hover:text-[#8A2BE2] py-1 transition-colors text-slate-700";
   };
 
   return (
@@ -50,16 +50,16 @@ export default function Navbar() {
       }`}
     >
       {/* Promotional Top Bar */}
-      <div className="w-full bg-[#7000FF] text-black py-2 overflow-hidden flex items-center shadow-sm">
+      <div className="w-full bg-gradient-to-r from-[#8A2BE2] via-[#7C3AED] to-[#6D28D9] text-white py-2 overflow-hidden flex items-center shadow-sm">
         <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="flex items-center gap-2 px-8 text-xs sm:text-sm font-semibold tracking-wide whitespace-nowrap">
-              🎁 Special Offer: We offer a <span className="font-extrabold underline uppercase tracking-widest">Free Trial</span> to test our service! 
+              ✨ Special Offer: We offer a <span className="font-extrabold underline uppercase tracking-widest text-amber-300">Free Trial</span> to test our service! 
               <a 
-                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20argontv%20IPTV." 
+                href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Wizard%20TV." 
                 target="_blank" 
                 rel="noreferrer"
-                className="inline-block ml-2 bg-black text-white px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold hover:bg-white hover:text-black transition-colors shadow-sm"
+                className="inline-block ml-2 bg-amber-400 text-slate-950 px-3 py-1 rounded-full text-[10px] sm:text-xs font-black hover:bg-white hover:text-black transition-colors shadow-sm"
               >
                 Claim Now
               </a>
@@ -99,7 +99,7 @@ export default function Navbar() {
         {/* RIGHT ACTIONS */}
         <div className="hidden lg:flex items-center gap-4 shrink-0 z-20">
           <a
-            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20argontv%20IPTV."
+            href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Wizard%20TV."
             target="_blank"
             rel="noreferrer"
             className="btn-primary-voltra px-6 py-2.5 text-sm"
@@ -131,7 +131,7 @@ export default function Navbar() {
           </nav>
           <div className="pt-4 border-t border-black/10 flex flex-col gap-3">
             <a
-              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20argontv%20IPTV."
+              href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Wizard%20TV."
               target="_blank"
               rel="noreferrer"
               className="w-full text-center py-3 btn-primary-voltra text-sm"

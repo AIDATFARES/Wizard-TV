@@ -9,12 +9,12 @@ export default function Blog() {
   const gridPosts = blogPosts.slice(1);
 
   return (
-    <main className="flex-grow pt-32 pb-24 px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto w-full relative z-10">
+    <main className="flex-grow pt-4 md:pt-6 pb-24 px-margin-mobile md:px-margin-desktop max-w-[1440px] mx-auto w-full relative z-10">
       {/* Header */}
       <header className="mb-16 text-center md:text-left">
         <h1 className="font-display-lg text-display-lg text-on-surface mb-4">Latest News &amp; Streaming Tips</h1>
         <p className="font-body-lg text-body-lg text-on-surface-variant max-w-2xl">
-          Stay updated with the latest in 4K streaming technology, new channel additions, and guides to optimize your argontv experience.
+          Stay updated with the latest in 4K streaming technology, new channel additions, and guides to optimize your Wizard TV experience.
         </p>
       </header>
 

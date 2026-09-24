@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | ArgonTV",
-  description: "Learn about the refund policy, eligibility, and process for ArgonTV.",
+  title: "Refund Policy & Money-Back Guarantee | Wizard TV",
+  description: "Understand the Wizard TV refund policy, guarantee guidelines, and cancellation process. We ensure a transparent and fair experience for every subscriber.",
   alternates: {
     canonical: "/refund-policy",
   },
@@ -13,7 +13,7 @@ const sections = [
   {
     title: "Our Commitment to You",
     content: [
-      "At ArgonTV, we uphold the standard of our IPTV subscription service. This policy specifies when refunds may be applicable, ensuring that we maintain a transparent and just process for every customer.",
+      "At Wizard TV, we uphold the standard of our IPTV subscription service. This policy specifies when refunds may be applicable, ensuring that we maintain a transparent and just process for every customer.",
     ],
   },
   {
@@ -93,7 +93,7 @@ export default function RefundPolicyPage() {
   const currentDate = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
   
   return (
-    <main className="flex-grow px-5 pb-20 pt-12 sm:px-8 md:pt-16 text-format-legal">
+    <main className="flex-grow px-5 pb-20 pt-4 sm:px-8 md:pt-6 text-format-legal">
       <article className="mx-auto max-w-4xl">
         <header className="border-b border-black/10 pb-10 text-center mx-auto max-w-3xl">
           <span className="inline-flex rounded-full border border-primary-400/35 bg-primary-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.18em] text-primary-300">Legal information</span>

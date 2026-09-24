@@ -37,7 +37,7 @@ export default function TestimonialsSection() {
             </span>
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-sm leading-6 text-slate-600 animate-fade-up" style={{ animationDelay: '0.1s' }}>
-            Read real reviews from our global community. Discover why ArgonTV is rated as the most reliable, buffer-free IPTV service for live sports, movies, and international channels.
+            Read real reviews from our global community. Discover why Wizard TV is rated as the most reliable, buffer-free IPTV service for live sports, movies, and international channels.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export default function TestimonialsSection() {
               >
                 <Image
                   src={`/reviews/${img}`}
-                  alt="ArgonTV Customer Review"
+                  alt="Wizard TV Customer Review"
                   fill
                   sizes="(max-width: 640px) 220px, 280px"
                   className="object-contain group-hover:scale-105 transition-transform duration-300"
@@ -85,10 +85,10 @@ export default function TestimonialsSection() {
 
         <div className="mt-12 text-center animate-fade-up" style={{ animationDelay: '0.4s', animationFillMode: 'both' }}>
           <a
-            href="https://wa.me/213552069874?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20argontv%20IPTV."
+            href="https://wa.me/213552069874?text=Hello%2C%20I%20would%20like%20a%20free%20trial%20for%20Wizard%20TV."
             target="_blank"
             rel="noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary-500 to-primary-600 px-7 py-4 text-sm font-extrabold text-black shadow-[0_0_28px_rgba(255,107,0,0.42)] transition-transform hover:-translate-y-0.5 hover:scale-105"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-primary-500 to-primary-600 px-7 py-4 text-sm font-extrabold text-white shadow-[0_0_28px_rgba(138,43,226,0.42)] transition-transform hover:-translate-y-0.5 hover:scale-105"
           >
             <Trophy className="h-4 w-4" /> Get Your Free Trial
           </a>
