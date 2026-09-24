@@ -242,7 +242,7 @@ export default function ChannelsPage() {
                   </ul>
 
                   <div className="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
-                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Total Available</span>
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-600">Total Available</span>
                     <span className="text-xs font-black text-[#7000FF]">{category.count}</span>
                   </div>
                 </motion.article>

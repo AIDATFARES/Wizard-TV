@@ -31,7 +31,7 @@ export default function BrandLogo({ compact = false, theme = "auto" }: BrandLogo
             TV
           </span>
         </div>
-        <span className="text-[9px] font-black uppercase tracking-[0.22em] text-[#F59E0B] leading-tight mt-0.5">
+        <span className={`text-[9px] font-black uppercase tracking-[0.22em] leading-tight mt-0.5 ${isLightText ? "text-amber-400" : "text-amber-700"}`}>
           PREMIUM 4K IPTV
         </span>
       </div>

@@ -283,13 +283,13 @@ export default function FAQ() {
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-primary-500/20 text-primary-400"><Mail className="h-5 w-5" /></span>
                 <span className="mt-4 block text-base font-bold text-black">Email Us</span>
                 <span className="mt-2 block text-xs leading-5 text-slate-600">For general inquiries and support.</span>
-                <span className="mt-3 block text-xs font-semibold text-primary-400">support@wizardtv.site</span>
+                <span className="mt-3 block text-xs font-semibold text-primary-600">support@wizardtv.site</span>
               </a>
               <a className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center transition-colors hover:border-primary-500/50" href="https://wa.me/213552069874?text=Hello%20Wizard%20TV%20IPTV%20support%2C%20I%20need%20help." rel="noreferrer" target="_blank">
-                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366]/20 text-[#25D366]"><MessageCircle className="h-5 w-5" /></span>
+                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#25D366]/20 text-emerald-700"><MessageCircle className="h-5 w-5" /></span>
                 <span className="mt-4 block text-base font-bold text-black">WhatsApp Support</span>
                 <span className="mt-2 block text-xs leading-5 text-slate-600">Fastest way to reach us for technical issues.</span>
-                <span className="mt-3 block text-xs font-semibold text-[#25D366]">Start Chat →</span>
+                <span className="mt-3 block text-xs font-semibold text-emerald-700">Start Chat →</span>
               </a>
               <div className="flex min-h-40 flex-col items-center justify-center rounded-2xl border border-black/10 bg-white p-5 text-center">
                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-black/10 text-slate-700"><Clock3 className="h-5 w-5" /></span>

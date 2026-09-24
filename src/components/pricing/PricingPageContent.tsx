@@ -166,7 +166,7 @@ export default function PricingPageContent() {
                 
                 <div className="min-h-[20px] mt-2 flex items-center justify-center gap-2">
                   {plan.saving && (
-                    <p className="text-xs font-bold text-accent-500">{plan.saving}</p>
+                    <p className="text-xs font-bold text-amber-900 bg-amber-100/90 px-2 py-0.5 rounded-full">{plan.saving}</p>
                   )}
                   {plan.oldPrice && (
                      <p className="text-xs font-semibold text-slate-500 line-through">${(plan.oldPrice * devices).toFixed(2)}</p>

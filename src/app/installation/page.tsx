@@ -45,7 +45,7 @@ export default function Installation() {
 
           {/* Apps Platform Logos Banner */}
           <div className="mt-16 border-t border-black/[0.05] pt-12">
-            <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-8">Supported on all your favorite devices</h3>
+            <h2 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-8">Supported on all your favorite devices</h2>
             <BrandMarquee 
               imagesFolder="devices" 
               images={[

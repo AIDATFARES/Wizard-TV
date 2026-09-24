@@ -23,7 +23,7 @@ export default function SupportCtaSection() {
         </div>
         <div className="flex shrink-0 flex-col gap-2.5 sm:w-40">
           <a
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-4 py-2.5 text-[10px] font-extrabold uppercase tracking-wide text-white shadow-[0_0_20px_rgba(37,211,102,0.4)] transition-all hover:bg-[#20bd5a] hover:scale-105"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] px-4 py-2.5 text-[10px] font-black uppercase tracking-wide text-slate-950 shadow-[0_0_20px_rgba(37,211,102,0.4)] transition-all hover:bg-[#20bd5a] hover:scale-105"
             href="https://wa.me/213552069874?text=Hello%2C%20I%20have%20a%20question%20about%20Wizard%20TV."
             rel="noreferrer"
             target="_blank"

@@ -66,7 +66,7 @@ export default function Home() {
       
       {/* Device Logos Marquee */}
       <div className="w-full bg-white border-t border-black/[0.05] pt-12 pb-6 relative z-10">
-        <h3 className="text-center text-sm font-bold tracking-widest text-slate-400 uppercase mb-8">Supported on all your favorite devices</h3>
+        <h2 className="text-center text-sm font-bold tracking-widest text-slate-700 uppercase mb-8">Supported on all your favorite devices</h2>
         <BrandMarquee 
           imagesFolder="devices" 
           images={[
@@ -84,8 +84,8 @@ export default function Home() {
           ]}
           cardClassName="flex-shrink-0 w-[160px] h-[80px] md:w-[220px] md:h-[100px] relative bg-white border border-slate-200 rounded-2xl p-4 md:p-6 hover:border-primary-300 transition-all duration-300 shadow-md flex items-center justify-center"
           imageClassName="object-contain drop-shadow-sm"
-          sizes="(max-width: 640px) 240px, (max-width: 1024px) 340px, 440px"
-          quality={95}
+          sizes="(max-width: 640px) 160px, 220px"
+          quality={75}
         />
       </div>
 

@@ -54,7 +54,7 @@ export default function Navbar() {
         <div className="flex w-max animate-marquee hover:[animation-play-state:paused]">
           {[...Array(6)].map((_, i) => (
             <span key={i} className="flex items-center gap-2 px-8 text-xs sm:text-sm font-semibold tracking-wide whitespace-nowrap">
-              ✨ Special Offer: We offer a <span className="font-extrabold underline uppercase tracking-widest text-amber-300">Free Trial</span> to test our service! 
+              ✨ Special Offer: We offer a <span className="font-extrabold underline uppercase tracking-widest text-amber-200">Free Trial</span> to test our service! 
               <a 
                 href="https://wa.me/213552069874?text=Hello,%20I%20would%20like%20to%20request%20a%20free%20trial%20for%20Wizard%20TV." 
                 target="_blank" 

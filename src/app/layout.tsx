@@ -89,7 +89,7 @@ export default function RootLayout({
                   </svg>
                 </div>
                 <span>
-                  <span className="block text-[10px] font-bold uppercase tracking-widest text-[#25D366]">Fast support</span>
+                  <span className="block text-[10px] font-bold uppercase tracking-widest text-emerald-700">Fast support</span>
                   <span className="block whitespace-nowrap text-base font-bold text-black">WhatsApp</span>
                 </span>
               </a>

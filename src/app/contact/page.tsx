@@ -44,7 +44,7 @@ export default function Contact() {
               Fastest way to reach us for technical issues.
             </p>
             <a
-              className="text-[#25D366] font-bold hover:text-[#20bd5a] transition-colors flex items-center gap-2"
+              className="text-emerald-700 hover:text-emerald-800 font-bold transition-colors flex items-center gap-2"
               href="https://wa.me/213552069874?text=Hello,%20I%20need%20support%20for%20Wizard%20TV."
               target="_blank"
               rel="noreferrer"

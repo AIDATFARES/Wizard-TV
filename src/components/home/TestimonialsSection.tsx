@@ -14,11 +14,11 @@ const reviewImages = [
 ];
 
 const metrics = [
-  { icon: Star, value: "4.9 / 5.0", label: "Average rating", tone: "text-amber-300" },
-  { icon: Users, value: "14K+", label: "Happy customers", tone: "text-blue-300" },
-  { icon: Tv, value: "50K+", label: "Live channels", tone: "text-primary-300" },
-  { icon: Globe2, value: "80+", label: "Countries supported", tone: "text-primary-300" },
-  { icon: RefreshCw, value: "94%", label: "Renewal rate", tone: "text-pink-300" },
+  { icon: Star, value: "4.9 / 5.0", label: "Average rating", tone: "text-amber-600" },
+  { icon: Users, value: "14K+", label: "Happy customers", tone: "text-blue-600" },
+  { icon: Tv, value: "50K+", label: "Live channels", tone: "text-purple-600" },
+  { icon: Globe2, value: "80+", label: "Countries supported", tone: "text-purple-600" },
+  { icon: RefreshCw, value: "94%", label: "Renewal rate", tone: "text-pink-600" },
 ];
 
 export default function TestimonialsSection() {
@@ -27,7 +27,7 @@ export default function TestimonialsSection() {
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_22%_36%,rgba(92,49,153,0.12),transparent_28%),radial-gradient(ellipse_at_76%_52%,rgba(30,94,185,0.09),transparent_28%)]" />
       <div className="relative">
         <div className="mx-auto max-w-3xl px-5 text-center">
-          <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-400/40 bg-amber-400/[0.06] px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.15em] text-amber-300">
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-amber-600/30 bg-amber-50 px-4 py-1.5 text-[10px] font-extrabold uppercase tracking-[0.15em] text-amber-800">
             <Trophy className="h-3 w-3" /> TOP RATED IPTV PROVIDER
           </span>
           <h2 className="mt-6 text-4xl font-black uppercase leading-[0.98] tracking-tight text-black sm:text-5xl animate-fade-up">
@@ -92,15 +92,15 @@ export default function TestimonialsSection() {
           >
             <Trophy className="h-4 w-4" /> Get Your Free Trial
           </a>
-          <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-2 text-[10px] text-slate-500">
+          <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-2 text-[10px] text-slate-600">
             <span className="flex items-center gap-1.5">
-              <Headphones className="h-3 w-3 text-[#25D366]" /> Instant WhatsApp delivery
+              <Headphones className="h-3 w-3 text-emerald-700" /> Instant WhatsApp delivery
             </span>
             <span className="flex items-center gap-1.5">
-              <Tv className="h-3 w-3 text-primary-300" /> Works on all devices
+              <Tv className="h-3 w-3 text-purple-600" /> Works on all devices
             </span>
             <span className="flex items-center gap-1.5">
-              <ShieldCheck className="h-3 w-3 text-primary-300" /> 99.9% uptime guaranteed
+              <ShieldCheck className="h-3 w-3 text-purple-600" /> 99.9% uptime guaranteed
             </span>
           </div>
         </div>
